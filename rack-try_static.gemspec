@@ -30,7 +30,7 @@ Gem::Specification.new do |s|
 
   # dependencies
   # RubyGems has runtime dependencies (add_dependency) and
-  s.add_dependency 'rack', '1.1.0'
+  s.add_dependency 'rack', '>= 1.1.0'
 
   s.has_rdoc = false
   #s.extra_rdoc_files = %w[README.rdoc COPYING]
